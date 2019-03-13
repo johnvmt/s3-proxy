@@ -1,25 +1,20 @@
 {
-  "name": "s3-proxy",
-  "version": "1.1.1",
+  "name": "s3-proxy-index",
+  "version": "1.0.0",
   "description":
-    "Streaming http proxy Express middleware for fetching objects from S3",
+    "Streaming http proxy Express middleware for fetching objects from S3, based on s3-proxy",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --reporter spec --bail --check-leaks test/",
-    "test-cov":
-      "istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/",
-    "test-travis":
-      "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dvonlehman/s3-proxy"
+    "url": "https://github.com/johnvmt/s3-proxy"
   },
   "keywords": ["express", "middleware", "aws", "s3", "proxy"],
   "files": ["index.js", "lib"],
   "author": "David Von Lehman (https://github.com/dvonlehman)",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/dvonlehman/s3-proxy",
+  "homepage": "https://github.com/johnvmt/s3-proxy",
   "dependencies": {
     "async": "^2.0.0-rc.3",
     "aws-config": "^1.0.7",
@@ -33,8 +28,7 @@
     "lodash.reject": "^4.4.0",
     "lodash.trim": "^4.4.0",
     "mime": "^1.3.4",
-    "simple-errors": "^1.0.1",
-    "url-join": "1.1.0"
+    "simple-errors": "^1.0.1"
   },
   "devDependencies": {
     "cookie-parser": "^1.4.1",
