@@ -1,6 +1,6 @@
 {
   "name": "s3-proxy-index",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description":
     "Streaming http proxy Express middleware for fetching objects from S3, based on s3-proxy",
   "main": "index.js",
